@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(libros.jpg) no-repeat center center/cover;
+}
+.contenido-centrado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor{
+    width: 80vw;
+    max-width: 600px;
+    min-height: 500px;
+    padding: 20px;
+    background-color: white;
+    border: 15px solid rgb(71, 40, 40);
+    border-radius: 27px;
+}
+.contenedor-interno{
+    width: 80%;
+}
+#titulo{
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+}
+#cita{
+    font-size: 32px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    font-style: italic;
+}
+#autor{
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+}
+#botonRandom{
+    margin-top: 20px;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 27px;
+    background-color: rgb(26, 15, 2);
+    color: white;
+    box-shadow: 0 0 30px rgb(23, 11, 2);
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+#botonRandom:hover{
+    border: 5px solid rgb(36, 158, 188);
+    background-color: rgb(44, 170, 208);
+    box-shadow: 0 0 30px rgb(71, 123, 146);
+}
